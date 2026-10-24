@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="Laurent Ortiz's cybersecurity portfolio: security labs, Active Directory design, 
+  Linux hardening, and hands-on IT experience." name="description"/>
+  <title>
+   Laurent Ortiz — Cybersecurity Portfolio
+  </title>
+  <link href="styles.css" rel="stylesheet"/>
+ </head>
+ <body>
+
+  <!-- SITE NAVIGATION -->
+  <nav>
+   <a class="brand" href="#">
+    Laurent Ortiz
+   </a>
+   <div class="links">
+    <a href="#projects">
+     Projects
+    </a>
+    <a href="#about">
+     About
+    </a>
+    <a href="#experience">
+     Experience
+    </a>
+   </div>
+  </nav>
+  <main>
+    
+   <!-- HERO SECTION -->
+   <header class="hero">
+    <div>
+     <div class="eyebrow">
+    
+     </div>
+     <h1>
+      Welcome to my  
+      <em>
+       Cybersecurity
+      </em>
+      Portfolio!
+    <br/>
+     </h1>
+     <p class="intro">
+      I'm Laurent, a cybersecurity student with security engineering internship, IT support, and customer service experience; 
+      exploring how systems are attacked, defended, and supported.
+     </p>
+     <div class="actions">
+      <a class="button" href="#projects">
+       Explore My Work ↗
+      </a>
+      <a class="button outline" href="assets/Resume_LOrtiz.pdf" rel="noopener" target="_blank">
+       View Resume ↗
+      </a>
+     </div>
+    </div>
+    <div aria-label="Illustration of a shield and security portfolio terminal" class="visual">
+     <div class="windowline">
+      <span class="dots">
+       ● ● ●
+      </span>
+      <span>
+       Laurent Ortiz / Security Lab
+      </span>
+     </div>
+     <div class="shield">
+      <svg aria-hidden="true" fill="none" viewBox="0 0 130 150">
+       <path d="M65 8 116 29v49c0 32-31 52-51 65C45 130 14 110 14 78V29L65 8Z" stroke="#d8ef96" stroke-width="2">
+       </path>
+       <path d="M65 23 101 38v39c0 23-22 40-36 50-14-10-36-27-36-50V38L65 23Z" stroke="#709579">
+       </path>
+       <path d="m44 73 15 15 28-34" stroke="#d8ef96" stroke-width="5">
+       </path>
+      </svg>
+     </div>
+     <div class="terminal">
+      <div>
+       <strong>
+        $
+       </strong>
+       whoami
+      </div>
+      <div>
+       Curious · Analytical · Driven 
+      </div>
+      <div>
+       <strong>
+        $
+       </strong>
+       interests --list
+      </div>
+      <div>
+       Offensive security | Threat hunting | Digital Forensics
+      </div>
+     </div>
+    </div>
+   </header>
+   <!-- QUICK SUMMARY -->
+   <div class="strip">
+    <span>
+     <strong>
+      Education
+     </strong>
+     Utah Valley University | Salt Lake Community College
+    </span>
+    <span>
+     <strong>
+      Focus
+     </strong>
+     Cybersecurity
+    </span>
+    <span>
+     <strong>
+      Approach
+     </strong>
+     Hypothesize. Test. Document. Learn.
+    </span>
+   </div>
+   <!-- PROJECTS & COLLECTION TABS -->
+   <section id="projects">
+    <div class="sectionhead">
+     <div>
+      <div class="eyebrow">
+       01 / Projects
+      </div>
+      <h2>
+       Learning Through Doing.
+      </h2>
+     </div>
+     <p>
+      Explore my cybersecurity and technology work, 
+      or visit the Criminal Justice tab for the projects I've worked on at SLCC that I’m proudest of!
+     </p>
+    </div>
+    <div aria-label="Project collections" class="collectiontabs" role="tablist">
+     <button aria-controls="projectpanel" aria-selected="true" data-collection="main" id="tab-main" role="tab" tabindex="0">
+      Cybersecurity &amp; Technology
+     </button>
+     <button aria-controls="projectpanel" aria-selected="false" data-collection="slcc" id="tab-slcc" role="tab" tabindex="-1">
+      Criminal Justice
+     </button>
+    </div>
+    <div aria-labelledby="tab-main" id="projectpanel" role="tabpanel">
+     <div id="collectionintro">
+      <h3 id="collectiontitle">
+       Cybersecurity &amp; Technology
+      </h3>
+      <p id="collectiondescription">
+       Security Labs, Cryptography Research, and Technology Projects from my studies at Utah Valley University.
+      </p>
+     </div>
+     <div aria-label="Filter projects" class="filters">
+      <button aria-pressed="true" class="filter" data-filter="all">
+       All projects
+      </button>
+      <button aria-pressed="false" class="filter" data-filter="defense">
+       Systems &amp; Defense
+      </button>
+      <button aria-pressed="false" class="filter" data-filter="offense">
+       Offensive Security
+      </button>
+      <button aria-pressed="false" class="filter" data-filter="crypto">
+       Cryptography
+      </button>
+      <button aria-pressed="false" class="filter" data-filter="research">
+       Research
+      </button>
+      <button aria-pressed="false" class="filter" data-filter="design">
+       Systems Design
+      </button>
+     </div>
+     <div class="grid" id="projectgrid">
+     </div>
+    </div>
+   </section>
+
+   <!-- ABOUT ME & SKILLS -->
+   <section class="about" id="about">
+    <div class="about-left">
+     <div class="eyebrow">
+      02 / ABOUT ME
+     </div>
+     <h2>
+     A technical curiosity.   
+      <br/>
+      With a people-first foundation.
+     </h2>
+     <p>
+      My interest in cybersecurity began with criminal justice coursework and the role of digital devices in investigations.
+       Today, I'm especially interested in offensive security, threat hunting, and cybersecurity auditing.
+     </p>
+
+     <img
+     src="assets/laurent_photo.jpg"
+     alt="Portrait of Laurent Ortiz"
+     class="profile_photo"
+     >
+    </div>
+    <div>
+     <p>
+      I'm pursuing a B.S. in Information Technology with an emphasis in Cybersecurity at Utah Valley University. 
+      My Conduent security engineering internship gave me experience with detection rules, XQL queries, 
+      alert analysis, and incident response automation in Cortex XSIAM. 
+      My previous IT support roles built a foundation in identity, access, endpoints, and user support.
+      <br/>
+      I bring an investigator's mindset to cybersecurity, combining technical skills, critical thinking, 
+      and curiosity to uncover threats, solve problems, and protect what matters. 
+      Expected graduation: April 2027.
+     </p>
+     <div class="skills">
+      <div>
+       <h3>
+        Security &amp; investigation
+       </h3>
+       <p>
+        Cortex XSIAM · XQL · Detection rule development · Alert analysis · Wireshark · 
+        Nmap · Kibana · Metasploit · Elasticsearch
+       </p>
+      </div>
+      <div>
+       <h3>
+        Systems &amp; identity
+       </h3>
+       <p>
+        Active Directory · Microsoft 365 / Azure · Linux · Windows · Ubuntu
+       </p>
+      </div>
+      <div>
+       <h3>
+        IT operations
+       </h3>
+       <p>
+        NinjaOne (RMM) · Barracuda · ServiceNow · Zendesk · Device Provisioning · Technical Documentation
+       </p>
+      </div>
+      <div>
+       <h3>
+        Programming &amp; Foundations
+       </h3>
+       <p>
+        HTML · CSS · Python · AES · RSA · HMAC-SHA256
+       </p>
+      </div>
+     </div>
+     <h3 style="font-size:16px">
+      Certifications
+     </h3>
+     <p style="font-size:13px">
+      UVU Network Administration Academic Certification (April 2026) · TestOut PC Pro (April 2024) · TestOut IT Fundamentals Pro (December 2023)
+      <br/>
+      <strong>
+         Currently Working Towards Secuity+ & Network+ CompTIA Certifications
+      </strong>
+     
+     </p>
+     <p style="font-size:13px">
+      Degrees: A.S. in Information Technology, UVU · A.S. in Criminal Justice, SLCC
+     </p>
+    </div>
+   </section>
+   <!-- WORK EXPERIENCE -->
+   <section class="experience" id="experience">
+    <div class="eyebrow">
+     03 / WORK EXPERIENCE
+    </div>
+    <h2>
+     From Customer Support to Technology Support.
+    </h2>
+    <div class="job">
+     <div>
+      <h3>
+        Security Engineer Summer Intern
+      </h3>
+      <small>
+       Conduent Inc., June – August 2026
+      </small>
+     </div>
+     <p>
+      Developed exclusion rules, prevention policies, and correlation rules; created XQL queries; 
+      and reviewed alerts to refine detection logic. Built an agentic AI assistant integrated with Cortex XSIAM and 
+      aligned with the NIST incident response lifecycle to automate incident response workflows.
+     </p>
+    </div>
+    <div class="job">
+     <div>
+      <h3>
+        IT Technician
+      </h3>
+      <small>
+       Mountain Land Physical Therapy, July – October 2024
+      </small>
+     </div>
+     <p>
+      Supported account and group administration, Microsoft 365 licensing, employee onboarding, device provisioning, 
+      VPN connectivity, and email security troubleshooting.
+      Configured VPN access and supported secure remote connectivity.
+     </p>
+    </div>
+    <div class="job">
+     <div>
+      <h3>
+        Technical Customer Support Representative
+      </h3>
+      <small>
+       Digication Inc., July – October 2023
+      </small>
+     </div>
+     <p>
+      Provided remote technical support for clients, developing clear troubleshooting and communication skills. 
+      Created and managed user accounts with enforced access controls.
+     </p>
+    </div>
+    <div class="job">
+     <div>
+      <h3>
+        Product Support Tier II
+      </h3>
+      <small>
+       Rad Power Bikes, June – November 2022
+      </small>
+     </div>
+     <p>
+      Helped customers diagnose technical issues and translated troubleshooting steps into accessible, practical guidance.
+     </p>
+    </div>
+   </section>
+
+   <!-- CONTACT SECTION -->
+   <div class="ending">
+    <div>
+     <div class="eyebrow" style="color:var(--lime)">
+      What's next?
+     </div>
+     <h2>
+      Building my offensive security skills to protect people.
+     </h2>
+     <p>
+      I want to deepen my skills in penetration testing and threat hunting while 
+      bringing an IT support perspective to protecting systems.
+      What sets me apart is my ability to approach cybersecurity from both a technical and investigative perspective.
+      With a foundation in criminal justice and hands-on IT experience, I bring curiosity, critical thinking, and a passion for 
+      understanding not just how security threats happen, but 
+      <i>why</i>
+      they happen.
+     </p>
+    </div>
+    <a class="button" href="mailto:ortizlaurent2@gmail.com" style="background:var(--lime);color:var(--ink)">
+     Get in touch ↗
+    </a>
+   </div>
+
+   <!-- FOOTER -->
+   <footer>
+    <span>
+     ©
+     <span id="year">
+     </span>
+     Laurent Ortiz
+    </span>
+    <span>
+     Academic Projects · Controlled Lab Environments
+    </span>
+   </footer>
+  </main>
+
+  <!-- PROJECT DETAILS POPUP -->
+  <dialog id="modal">
+   <button aria-label="Close project" class="close">
+    ×
+   </button>
+   <div class="detail" id="detail">
+   </div>
+  </dialog>
+  <script defer="True" src="script.js">
+  </script>
+ </body>
+</html>
+
